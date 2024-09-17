@@ -1,8 +1,14 @@
+:root {
+  width: 1440px;
+  height: 3718px;
+}
+
 body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   margin: 0;
+  flex-shrink: 0;
 }
 
 
@@ -11,20 +17,66 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 0;
+  position: relative;
 }
+
+.navy img {
+  display: block;
+  padding-top: 15px;
+
+}
+
 
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-decoration: none;
+
 }
 
-li {
+li a {
   padding: 1rem;
-  padding-top: 1rem;
+  padding-top: 3rem;
+  text-decoration: none;
+  color: white;
+  padding-top: 15px;
+  font-size: 12px;
 }
+
+.people {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  line-height: normal;
+  font-weight: 700;
+  color: white;
+
+}
+
+.people h1 {
+  font-size: 120px;
+}
+
+.people h2 {
+  color: white;
+
+}
+
+.people button {
+  /* width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  floaleft: 639px;
+  border-radius: 22px;
+  background: #C271FF; */
+}
+
 
 
 
@@ -33,6 +85,7 @@ li {
 
 header {
   background-image: url(images/Header_woman.png);
+  background-blend-mode: normal, color;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
