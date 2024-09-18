@@ -1,93 +1,98 @@
-:root {
-  width: 1440px;
-  height: 3718px;
+@font-face {
+  font-family: 'Source sans pro Regular';
+  src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Source sans pro Bold';
+  src: url(fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Source sans pro Light';
+  src: url(fonts/SourceSansPro-Light.otf);
 }
 
 body {
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   justify-content: center;
-  margin: 0;
-  flex-shrink: 0;
+  max-width: 100%;
+  max-width: 100%;
+  line-height: 1;
+  font-family: ;
 }
-
 
 .navy {
-  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex;
+  padding-top: 170px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
-
-.navy img {
-  display: block;
-  padding-top: 15px;
-
-}
-
 
 ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-decoration: none;
+
 
 }
 
 li a {
-  padding: 1rem;
-  padding-top: 3rem;
   text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
-  padding-top: 15px;
-  font-size: 12px;
+
 }
 
-.people {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  line-height: normal;
-  font-weight: 700;
-  color: white;
-
+header {
+  background: url(images/pics/pic_1.jpg) no-repeat;
+  background-size: cover;
+  max-width: 100%;
 }
 
 .people h1 {
-  font-size: 120px;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 10px;
+  margin-bottom: 0;
+  color: white;
 }
 
-.people h2 {
+.people p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 5rem;
   color: white;
 
 }
 
 .people button {
-  /* width: 162px;
-  height: 44px;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  floaleft: 639px;
-  border-radius: 22px;
-  background: #C271FF; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  height: 2.5rem;
+  width: 10rem;
+  background-color: #C271FF;
+  color: white;
 }
 
+.learn-pros h2 {
+  color: white;
+  text-align: center;
+  font-weight: 100;
 
 
+}
 
-
-
-
-header {
-  background-image: url(images/Header_woman.png);
-  background-blend-mode: normal, color;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
+.learn-pros h2 b {
+  color: #C271FF;
 }
