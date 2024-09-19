@@ -186,26 +186,44 @@ header {
 .mpt {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  color: white;
-  padding: auto;
-  width: 100%;
-  height: auto;
+  justify-content: space-between;
+}
 
+.mpt #thumb-1 {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  height: auto;
+  width: 100%;
+}
+
+.mpt #thumb-1 img {
+  max-height: 15rem;
+  max-width: 15rem;
+
+}
+
+.mpt #thumb-1 h2 {
+  color: #071629;
+  font-size: .75rem;
+}
+
+.mpt #thumb-1 div {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+
+.mpt #thumb-1 div img {
+  border-radius: 30rem;
+  max-height: 2rem;
+  max-width: 2rem;
+  pa
 }
 
 .mpt p {
-  color: black
-}
-
-.mpt div .mpt-profile img {
-  width: 30px;
-  height: 50px;
-}
-
-.mpt div div .mpt-rating img {
-  width: 10px;
-  height: 50px;
+  color: black;
 }
 
 .mpt-h1 {
@@ -238,7 +256,7 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #071629;
-  padding-bottom: 15rem;
+
 }
 
 .free-mem h1 {
@@ -246,15 +264,14 @@ header {
   color: #C271FF;
 }
 
-.free-mem div {
-  display: flex;
-  flex-direction: row;
-}
-
 .free-mem button {
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  align-items: baseline;
   justify-content: center;
-  color: white;
 
 }
