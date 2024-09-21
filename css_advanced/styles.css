@@ -36,8 +36,6 @@ body {
 ul {
   list-style-type: none;
   display: flex;
-
-
 }
 
 li a {
@@ -117,7 +115,7 @@ header {
   margin-bottom: 6rem;
 }
 
-.pros>div {
+.pros div {
   padding: auto;
   width: 100%;
   height: auto;
@@ -186,7 +184,10 @@ header {
 .mpt {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mpt #thumb-1 {
@@ -203,10 +204,17 @@ header {
 
 }
 
+
 .mpt #thumb-1 h2 {
   color: #071629;
   font-size: .75rem;
 }
+
+.mpt #thumb-1 h3 {
+  color: #071629;
+  font-size: .75rem;
+}
+
 
 .mpt #thumb-1 div {
   display: flex;
@@ -219,7 +227,6 @@ header {
   border-radius: 30rem;
   max-height: 2rem;
   max-width: 2rem;
-  pa
 }
 
 .mpt p {
@@ -255,23 +262,55 @@ header {
 .free-mem {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: #071629;
+  color: white;
+  padding-bottom: 2rem;
 
 }
 
 .free-mem h1 {
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.free-mem h1 b {
   color: #C271FF;
+  font-family: Source-sans-pro-Bold;
+  font-weight: 800;
+}
+
+.free-mem .mem-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.free-mem .mem-wrapper img {
+  width: 100%;
+  height: auto;
+  max-width: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .free-mem button {
   max-width: 9.375rem;
   max-height: 9.375rem;
   width: 100%;
-  height: auto;
+  height: 2rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  font-size: .75rem;
 
 }
+
+*/
