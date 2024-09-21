@@ -184,53 +184,89 @@ header {
 .mpt {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: auto;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 4rem;
+  padding-right: 6rem;
+  padding-bottom: 2rem;
 }
 
-.mpt #thumb-1 {
+
+.mpt .thumb-1 img {
   display: flex;
-  flex-direction: column;
-  padding: auto;
   height: auto;
   width: 100%;
-}
-
-.mpt #thumb-1 img {
-  max-height: 15rem;
+  max-height: 9rem;
   max-width: 15rem;
+}
+
+.mpt .thumb-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
 }
 
+.mpt .thumb-1 :not(img) {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
 
-.mpt #thumb-1 h2 {
+.mpt .thumb-1 h2 {
   color: #071629;
   font-size: .75rem;
 }
 
-.mpt #thumb-1 h3 {
-  color: #071629;
-  font-size: .75rem;
+.mpt .thumb-1 .prof h3 {
+  color: #C271FF;
+  font-size: .60rem;
 }
 
+.mpt .thumb-1 .prof {
+  display: flex;
+  padding-bottom: 1rem;
+}
 
-.mpt #thumb-1 div {
+.mpt .thumb-1 .prof img {
+  border-radius: 30rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+}
+
+.mpt .thumb-1 #stars {
   display: flex;
   flex-direction: row;
-  width: auto;
-  height: auto;
+  margin-left: auto;
+  margin-top: auto;
+  font-size: .875rem;
 }
 
-.mpt #thumb-1 div img {
-  border-radius: 30rem;
-  max-height: 2rem;
-  max-width: 2rem;
+.mpt .thumb-1 div #stars img {
+  width: 14px;
+  height: 100%;
+  max-width: 1rem;
+  max-height: 3rem;
+  padding-right: .25rem;
+}
+
+.mpt .thumb-1 div #stars p {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-top: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: .5rem;
+  font-weight: 800;
+  color: #C271FF;
 }
 
 .mpt p {
   color: black;
+  font-size: 14px;
+  display: flex;
 }
 
 .mpt-h1 {
