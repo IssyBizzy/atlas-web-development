@@ -27,10 +27,10 @@ body {
 .navy {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex;
+  justify-content: center;
+  align-items: flex-end;
   width: 1103px;
-  height: 29px;
+  top: 29px;
   margin-left: auto;
   margin-right: auto;
 
@@ -39,27 +39,32 @@ body {
 ul {
   list-style-type: none;
   display: flex;
+  padding-left: 702px;
 }
 
 li a {
   text-decoration: none;
-  padding-left: 30px;
+  padding-left: px;
   padding-right: 30px;
   color: white;
+  font-size: 12px;
 
 }
 
 header {
   background: url(images/pics/pic_1.jpg) no-repeat;
   background-size: cover;
-  max-width: 100%;
+  height: 1055px;
+  padding-bottom: 10rem;
 }
 
 .people h1 {
-  font-size: 8rem;
-  display: flex;
-  padding-left: 10px;
-  margin-bottom: 0;
+  padding-top: 150px;
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Source-sans-pro-Bold';
+  line-height: 150px;
+  font-weight: 700;
   color: white;
   width: 684px;
   height: 151px;
