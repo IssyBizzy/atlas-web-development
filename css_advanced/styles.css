@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0px;
   max-width: 100%;
   max-width: 100%;
   line-height: 1;
