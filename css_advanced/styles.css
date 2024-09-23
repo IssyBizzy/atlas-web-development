@@ -29,9 +29,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex;
-  padding-top: 170px;
-  padding-left: 250px;
-  padding-right: 250px;
+  width: 1103px;
+  height: 29px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 ul {
@@ -56,11 +58,13 @@ header {
 .people h1 {
   font-size: 8rem;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
   padding-left: 10px;
   margin-bottom: 0;
   color: white;
+  width: 684px;
+  height: 151px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .people p {
@@ -71,6 +75,7 @@ header {
   word-spacing: 5rem;
   color: white;
   font-family: Source-sans-pro-Bold;
+
 
 }
 
@@ -114,6 +119,8 @@ header {
   padding-left: 10rem;
   padding-right: 10rem;
   margin-bottom: 6rem;
+  width: 1009px;
+  height: 237px;
 }
 
 .pros div {
@@ -125,8 +132,8 @@ header {
 
 .pros img {
   border-radius: 30rem;
-  max-width: 154px;
-  max-height: 154px;
+  max-width: 155px;
+  max-height: 155px;
   width: 100%;
   height: auto;
   margin-left: auto;
@@ -144,8 +151,9 @@ header {
 
 .pros p {
   text-align: center;
-  display: flex;
-  justify-content: center;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .smiling-man {
