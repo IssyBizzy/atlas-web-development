@@ -60,7 +60,7 @@ header {
   text-align: center;
   font-family: 'Source-sans-pro-Bold';
   line-height: 150px;
-  font-weight: 700;
+  font-weight: 700px;
   color: white;
   width: 684px;
   height: 151px;
@@ -101,7 +101,8 @@ header {
   font-weight: 100;
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 181px;
+  margin-bottom: 55px;
   font-size: 2rem;
 
 }
@@ -150,6 +151,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   font-style: italic;
+  font-size: 16px;
+  font-weight: 400px;
 }
 
 .smile_wrap {
@@ -192,7 +195,8 @@ header {
 .smiling-man div :nth-child(4) {
   color: white;
   font-weight: 800;
-  font-family: SOurce-sans-pro-Bold;
+  font-family: 'Source-sans-pro-Bold';
+  font-size: 22px;
 
 }
 
@@ -200,12 +204,14 @@ header {
   color: white;
   font-weight: 800;
   margin-left: 0;
+  font-size: 22px;
 
 }
 
 .smiling-man div :nth-child(5) {
   color: white;
   font-weight: 800;
+  font-size: 22px;
 }
 
 .mpt {
@@ -238,19 +244,25 @@ header {
 
 }
 
+/* Directly affects the paragraph in the .card and not anything else*/
 .mpt .card :not(img) {
+  margin-top: 0;
   padding-left: .5rem;
   padding-right: .5rem;
 }
 
 .mpt .card h2 {
   color: #071629;
-  font-size: .75rem;
+  font-size: 16px;
+  font-family: 'Source-sans-pro-Bold';
 }
 
 .mpt .card .prof h3 {
   color: #C271FF;
-  font-size: .60rem;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mpt .card .prof {
@@ -269,7 +281,6 @@ header {
   flex-direction: row;
   margin-left: auto;
   margin-top: auto;
-  font-size: .875rem;
 }
 
 .mpt .card div #stars img {
@@ -287,7 +298,7 @@ header {
   margin-top: auto;
   margin-top: auto;
   margin-bottom: auto;
-  font-size: .5rem;
+  font-size: 14px;
   font-weight: 800;
   color: #C271FF;
 }
@@ -296,6 +307,7 @@ header {
   color: black;
   font-size: 14px;
   display: flex;
+  margin-top: 7.6px;
 }
 
 .mpt-h1 {
@@ -338,7 +350,7 @@ header {
 
 .mpt-h1 b {
   color: #C271FF;
-  font-family: Source-sans-pro-Bold;
+  font-family: 'Source-sans-pro-Bold';
   font-weight: 800;
   padding-right: .5rem;
   padding-left: .5rem;
@@ -353,9 +365,6 @@ header {
   color: white;
   padding-bottom: 2rem;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-
 
 }
 
@@ -369,7 +378,7 @@ header {
 
 .free-mem h1 b {
   color: #C271FF;
-  font-family: Source-sans-pro-Bold;
+  font-family: 'Source-sans-pro-Bold';
   font-weight: 800;
   text-align: center;
 }
@@ -377,11 +386,11 @@ header {
 .free-mem .mem-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
-
+  max-width: 14000px;
+  padding-bottom: ;
 }
 
 .free-mem .mem-wrapper img {
@@ -391,19 +400,16 @@ header {
 }
 
 .free-mem button {
-  max-width: 9.375rem;
-  max-height: 9.375rem;
-  width: 100%;
-  height: 2rem;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30rem;
-  font-size: .75rem;
-
+  border-radius: 3rem;
+  height: 2.5rem;
+  width: 10rem;
+  background-color: #C271FF;
+  color: white;
+  border: 0;
+  box-shadow: 0px 2px 20px 0px rgb(0, 0, 0, 0.50);
 }
 
 */
