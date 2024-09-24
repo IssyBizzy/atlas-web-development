@@ -486,17 +486,19 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  width: 1103px;
-  margin-top: 29px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .foot_nav {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 1103px;
+  margin-top: 101px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .socials {
-  display: flex;
   padding-left: 702px;
 }
