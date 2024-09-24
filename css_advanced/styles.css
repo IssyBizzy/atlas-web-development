@@ -13,6 +13,7 @@
   src: url(fonts/SourceSansPro-Light.otf);
 }
 
+
 body {
   display: block;
   margin: 0px;
@@ -431,7 +432,6 @@ header {
   display: block;
   text-align: center;
   margin-top: 67px;
-  margin-bottom: 74px;
   font-size: 60px;
   font-weight: 300;
 }
@@ -469,5 +469,23 @@ header {
   line-height: 24px;
   font-weight: 400;
   width: 350px;
+  margin-bottom: 74px;
+}
+
+.faq_wrap .bottom_half {
   margin-bottom: 84px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #071629;
+  height: 249px;
+}
+
+.foot_ nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
