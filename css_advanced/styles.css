@@ -477,15 +477,26 @@ header {
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #071629;
   height: 249px;
 }
 
-.foot_ nav {
+.foot_back {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1103px;
+  margin-top: 29px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot_nav {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  padding-left: 702px;
 }
