@@ -491,14 +491,13 @@ footer {
 .foot_nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   width: 1103px;
   margin-top: 101px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.socials {
-  padding-left: 702px;
+.foot_nav .socials {
+  padding-left: 50px;
 }
