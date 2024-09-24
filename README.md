@@ -13,5 +13,4 @@ In this GIthub you will see my files involed in making the smile school webpage.
 Another reason for this project is to go through the process of being given information that i will need to interpret and create a webpage based of off,
 just like in the workforce.
 
-# Too see my version on smile school follow the link bellow.
-[Isaac's SmileSchool Webpage](https://dtbissy.github.io/atlas-web-development/css_advanced/index.html)
+### [Isaac's SmileSchool Webpage](https://dtbissy.github.io/atlas-web-development/css_advanced/index.html)
