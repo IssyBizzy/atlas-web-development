@@ -50,7 +50,7 @@ li a {
 header {
   background: url(images/pics/pic_1.jpg) no-repeat;
   background-size: cover;
-  height: 1055px;
+
   padding-bottom: 10rem;
 }
 
@@ -406,9 +406,10 @@ header {
 
 .free-mem button {
   display: block;
+  margin-top: 87px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3rem;
+  border-radius: 22px;
   font-size: 14px;
   height: 44px;
   width: 162px;
@@ -424,4 +425,29 @@ header {
   height: 153px;
   padding-left: 27px;
   padding-right: 27px;
+}
+
+.faq_h1 {
+  display: block;
+  text-align: center;
+  margin-top: 67px;
+  margin-bottom: 74px;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 286px;
+  margin-right: 271px;
+  margin-bottom: 84px;
+}
+
+.faq_wrap {
+  display: flex;
+  justify-content: center;
+
 }
