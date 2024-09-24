@@ -1,4 +1,4 @@
-# Welcome to my **Atlas_Web_Development** project. 
+# Welcome to my **Atlas Web Development** project folder. 
 In this GIthub you will see my files involed in making the smile school webpage. 
 
 ## Goals with this project
