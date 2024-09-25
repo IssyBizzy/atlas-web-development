@@ -184,6 +184,11 @@ header {
   width: 160px;
 }
 
+.text_smiling {
+  width: 730px;
+  margin-top: auto;
+}
+
 .smile-wrap .smiling-man p {
   color: white;
   text-align: left;
@@ -198,6 +203,8 @@ header {
   font-weight: 800;
   font-family: 'Source-sans-pro-Bold';
   font-size: 22px;
+  padding-top: 22px;
+  margin-bottom: 0;
 
 }
 
@@ -213,6 +220,17 @@ header {
   color: white;
   font-weight: 800;
   font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mpt-h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+  margin-bottom: 75px;
+  font-family: Source-sans-pro-Light;
+  font-weight: 100;
 }
 
 .mpt {
@@ -317,14 +335,6 @@ header {
   padding-left: 13px;
 }
 
-.mpt-h1 {
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  font-family: Source-sans-pro-Light;
-  font-weight: 100;
-}
 
 .thumbnail {
   position: relative;
@@ -380,6 +390,8 @@ header {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 58px;
 }
 
 .free-mem h1 b {
@@ -406,7 +418,8 @@ header {
 
 .free-mem button {
   display: block;
-  margin-top: 87px;
+  margin-top: 85px;
+  margin-bottom: 52px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 22px;
