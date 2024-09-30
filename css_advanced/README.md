@@ -9,4 +9,4 @@ In *__Css_Advanced__* the goal is to add CSS to our scratch index.html file. We 
 - How to compute CSS Specificity Value
 - Understand Box properties
 - Understand how a browser loads a webpage
-
+### [Isaac's SmileSchool Webpage](https://dtbissy.github.io/atlas-web-development/css_advanced/index.html)
